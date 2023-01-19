@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link href="./css/fancybox.css" rel="stylesheet" />
+
+    <title>Gallery</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About me</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index2.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index3.html">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index4.html">Messages</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class="container">
+      <div class="grid">
+          <a data-fancybox="gallery" href="./images/1img.jpg">
+              <img class="img-fluid" src="./images/1img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/2img.jpg">
+              <img class="img-fluid" src="./images/2img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/3img.jpg">
+              <img class="img-fluid" src="./images/3img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/4img.jpg">
+              <img class="img-fluid" src="./images/4img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/5img.jpg">
+              <img class="img-fluid" src="./images/5img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/6img.jpg">
+              <img class="img-fluid" src="./images/6img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/7img.jpg">
+              <img class="img-fluid" src="./images/7img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/8img.jpg">
+              <img class="img-fluid" src="./images/8img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/9img.jpg">
+              <img class="img-fluid" src="./images/9img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/10img.jpg">
+              <img class="img-fluid" src="./images/10img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/11img.jpg">
+              <img class="img-fluid" src="./images/11img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/12img.jpg">
+              <img class="img-fluid" src="./images/12img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/13img.jpg">
+              <img class="img-fluid" src="./images/13img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/14img.jpg">
+              <img class="img-fluid" src="./images/14img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/15mg.jpg">
+              <img class="img-fluid" src="./images/15mg.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/16img.jpg">
+              <img class="img-fluid" src="./images/16img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/17img.png">
+              <img class="img-fluid" src="./images/17img.png" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/18img.jpg">
+              <img class="img-fluid" src="./images/18img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/19img.jpg">
+              <img class="img-fluid" src="./images/19img.jpg" alt="...">
+          </a>
+          <a data-fancybox="gallery" href="./images/20img.jpg">
+              <img class="img-fluid" src="./images/20img.jpg" alt="...">
+          </a>
+      </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="./js/fancybox.umd.js"></script>
+
+    <script src="./js/gridify.js"></script>
+    <script>
+      window.onload = function(){
+        var options =
+        {
+            srcNode: 'img',             // grid items (class, node)
+            margin: '20px',             // margin in pixel, default: 0px
+            width: '250px',             // grid item width in pixel, default: 220px
+            max_width: '300px',              // dynamic gird item width if specified, (pixel)
+            resizable: true,            // re-layout if window resize
+            transition: 'all 0.5s ease' // support transition for CSS3, default: all 0.5s ease
+        }
+        document.querySelector('.grid').gridify(options);
+    }
+    </script>
+  </body>
+</html>
